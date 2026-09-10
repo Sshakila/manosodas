@@ -4,14 +4,6 @@ Het staat model voor digitale tuintjes welke bij 'Het web is voor iedereen' door
 
 ## Learning Log
 
-### [...]
-
-[...]
-
-### 3 sept - [Workshop]
-
-[...]
-
 ### 31 aug - Kickoff
 
 Leg uit wat een source hosting platform is en voor welke jij gekozen hebt.
@@ -33,7 +25,62 @@ Push en pull van mijn codes. Aanpassen in codium, en dit pushen naar de git.
 
 31-08-2026
 
-### 3 sept - [Workshop]
+### 2 sept - Deepdives
+
+Deep dive Typografie
+Belangrijke punten vanuit eigen notities:
+Wanneer je fonts mixt, is dit logisch; denk aan: stijl, leesbaarhied, opties en beschikbaarheid.
+Lijken de letters niet te veel op elkaar, kijk naar de licentie.
+Dafont, Google fonts, Adobe fonts en typography.com ff: E in Heineken lijkt op een smiley
+
+Opdracht:
+<img src="img/Dolly_Parton.png">
+
+Deep dive MMD interacties
+
+Belangrijke punten vanuit eigen notities:
+Wat: Het gebruik van verschillende vormen van interactie
+Waarom: Een meer intuïtieve interactie tussen mens en machine
+
+4 componenten
+
+1.  Trigger: Wat zorgt ervoor dat de micro-interactie begint? Is het de actie van een gebruiker (klikken, hoveren, swipen?) of een conditie systeem binnen het (een nieuw bericht, het voltooien van een proces?)
+2.  Rules: Wat gebeurt er (systematisch) na de trigger?
+3.  Feedback: Welke feedback krijgt de gebruiker? Dit kan visueel zijn, maar ook een trilling of geluid.
+4.  Loops: Blijft de micro-interactie een signal geven tot de gebruiker de volgende stap zet?
+
+Opdracht:
+<img src="img/WTW1.png">
+<img src="img/WTW2.png">
+<img src="img/WTW3.png">
+
+Feedback bij WTW2 verwerkt, nog een knop toegevoegd om door te kunnen klikken.
+Vraag: verschil tussen splash screen en home pagina -> Bij splash screen denk aan de loading pagina's bij mobiele apps.
+
+### 4 sept - Deepdives
+
+HTML & CSS basics
+Belangrijke punten vanuit eigen notities/artikel
+
+HTML; HyperText Markup Language, CSS; Cascading Style Sheets and JavaScript
+
+HTML is for adding meaning to raw content by marking it up
+CSS id for formatting that marked up content
+JavaScript is for making that content and formatting interactive
+
+Neem de stylesheet apart om zo te vermijden dat je niet handmatig alles weer moet aanpassen (interne css niet doen, extern aka apart css inladen is ideaal om zo alles aan te kunnen passen met 1 line of code) critical css extern, rest intern
+Met cascading, wanneer een regel specifieker is zal dit het andere overschrijven vb: (specificity)
+P = blue
+Main.article p = blue
+Main.article p zal dan gebruikt worden omdat dit specifieker is.
+Html = inline en heeft meer specificity dan externe css -> aka meer belangrijk.
+notes over javascript
+<img src="img/Java_nts">
+
+Praktische CSS
+opdracht:
+<img src="img/Eigen_lelijke.png">
+<img src="img/Tijdens_les.png">
 
 ### 7 sept - Kickoff
 
@@ -63,6 +110,9 @@ Push en pull van mijn codes. Aanpassen in codium, en dit pushen naar de git.
 3. Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.
    Ik zou misschien een kleine 2d game willen maken, of in ieder geval goed gebruik maken van de digitale elementen. Denk aan plaatjes die rond bewegen, verschillende animaties gebaseerd op het onderwerp. Dus sowieso wil ik het niet op een krant laten lijken, maar een digitale wereld met versschillende elementen, kleuren en net niet geuren.
 
+Opdracht
+<img src="img/7sep.jpg">
+
 ### 9 september online les
 
 Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content? ​
@@ -87,12 +137,12 @@ Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door in te gaan op
 
 Visual Research:
 
-<img src="ïmg/VR_wrd.png">
-<img src="ïmg/DR_beelden.png">
-<img src="ïmg/poster.png">
-<img src="ïmg/poster4.png">
-<img src="ïmg/C8.png">
-<img src="ïmg/C8_expln.png">
+<img src="img/VR_wrd.png">
+<img src="img/DR_beelden.png">
+<img src="img/poster.png">
+<img src="img/poster4.png">
+<img src="img/C8.png">
+<img src="img/C8_expln.png">
 
 Checkout
 
@@ -107,3 +157,5 @@ Mijn DG gaat over Griekse mythologie, waar ik het zal hebben over mijn eigen int
 
 -Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder zou willen onderzoeken.
 Ik zou graag idee 2 en 8 (gemarkeerd met een ster) willen samenvoegen en uitwerken. Dit lijkt mij een goede uitdaging om er van te leren, maar ook dat de 'wow' factor niet volledig op 1 grote animatie leunt.
+
+### 10 sept Huiswerk
