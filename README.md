@@ -75,7 +75,7 @@ Main.article p = blue
 Main.article p zal dan gebruikt worden omdat dit specifieker is.
 Html = inline en heeft meer specificity dan externe css -> aka meer belangrijk.
 notes over javascript
-<img src="img/Java_nts">
+<img src="img/Java_nts.jpg">
 
 Praktische CSS
 opdracht:
