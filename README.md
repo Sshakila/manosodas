@@ -113,6 +113,17 @@ opdracht:
 Opdracht
 <img src="img/7sep.jpg">
 
+### 8 september huiswerk voor woensdag
+
+Presentatie gemaakt zie folder 'oefeningen'
+
+Deepdive Light N Dark gemaakt:
+Opdracht 1:
+<img src="img/LightNdark1.png">
+<img src="img/LightNdark2.png">
+
+opdracht 2:
+
 ### 9 september online les
 
 Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content? ​
@@ -159,3 +170,62 @@ Mijn DG gaat over Griekse mythologie, waar ik het zal hebben over mijn eigen int
 Ik zou graag idee 2 en 8 (gemarkeerd met een ster) willen samenvoegen en uitwerken. Dit lijkt mij een goede uitdaging om er van te leren, maar ook dat de 'wow' factor niet volledig op 1 grote animatie leunt.
 
 ### 10 sept Huiswerk
+
+Schermen:
+<img src="img/schrm1.jpg">
+<img src="img/schrm2.jpg">
+<img src="img/schrm3.jpg">
+<img src="img/schrm4.jpg">
+
+Deepdive:
+<img src="img/Gameclr.png">
+<img src="img/Gameclr2.png">
+<img src="img/Gradient1.png">
+<img src="img/Flags.png">
+
+### 11 sept Feedback
+
+Check-out:
+Feedback, klépos met sisyphus no go zone -> het is 1 kleine animatie en verder vrij weinig
+Idee met 'ds-menu' is heel leuk, meer persoonlijk en interessan/uitdagend om uit te werken.
+
+Technische vragen;
+Images met een carousel
+Carousel functie(?) met een scrollbar
+Overflow-x:scroll functie
+
+Bronnen gekregen van Maarten te Poele: https://lab.chsmc.org/scroll-out-scaling & https://codepen.io/krijnhoetmer/pen/qBgGwLB
+
+FDND: Scroll-snap carousel
+Bronnen binnennin website vermeldenm, evt met links van foto’s en APA naar tekst
+
+### 12 sept huiswerk
+
+Artikellen en video's gelezen/bekeken.
+Belangrijkste punten vanuit mijn notities;
+
+We zitten in onze eigen echo chamber, waar onze info alleen van degene die we kiezen te horen krijgen. Je volgt extreem rechte accounts en zal alleen die bias horen. We zijn geïsoleerd van debatten, en kunnen geen scheiding meer maken tussen feit, mening en nep nieuws.
+
+AI zit nu binnenin enorme bedrijven die weer in hun eigen echo chamber zitten en proberen slim te worden door alleen naar zichzelf te kijken.
+De monopolies van deze bedrijven zijn erg slecht, het stopt innovatie en weerhoudt mensen van groeien, proeven en voelen.
+
+### 14 sept
+
+Feedback; Let erop dat dit goed klein en groter kan worden in de website, niet te veel letten op de CSS, focus voor nu op de HTML.
+Bij de verschillende goden verschillende achtergronden bij het scrollen.
+
+Bekijken van andere websites:
+https://immersivebags.miumiu.com/en/
+https://why.zero.university/
+https://assets.awwwards.com/awards/external/2017/07/595badffaf6a2.mp4
+
+Check-out
+
+Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+Afbeeldingen die te groot zijn, teksten die te lang zijn en wanneer der niet meegeschaald wordt. Dit kan je fixen door een max-width toe te voegen en evt padding.
+
+Vertel welke volgende stap je neemt om je website responsive te maken.
+Ik ga nu letten op de indeling van mijn pagina, en wil het maken dat wanneer de pagina vergroot wordt er meer kopjes bij komen afmaken.
+
+Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
+Het is toegangelijk met grote buttons die het gebruik makkelijker maken.
