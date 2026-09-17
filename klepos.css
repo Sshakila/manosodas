@@ -12,7 +12,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 0.4em;
-  gap: 30px;
+  gap: 10px;
   grid-auto-flow: dense;
 }
 
@@ -37,8 +37,8 @@ article:nth-of-type(3n) {
 @layer basis {
   :root {
     --card-color: #333;
-    --card-background: #fff;
-    --card-background-accent: gold;
+    --card-background: #fff200;
+    --card-background-accent: rgb(0, 64, 255);
   }
 
   /* Simpele CSS Remedy */
