@@ -1,140 +1,78 @@
-/* HIER KOMT JOUW CSS */
-/* @font-face {
-  font-family: "Comic Relief";
-  src: url(../type/ComicRelief-Regular.woff2);
-  font-weight: 400;
-  font-style: normal;
-}
-
-body {
-  font-family: "Comic Relief", system-ui;
-  background-color: Canvas;
-  color: CanvasText;
-  color-scheme: light dark;
-} */
-
-html {
-  color-scheme: light dark;
-  --accent-color: deeppink;
-  --border-width: 0.1em;
-  /* --whitespace: 2rem;  /*dit is een custom property, wanneer je je eigen maakt (en niet een standaard eentje) moet je beginnen met een -- */
-
-  --whitespace-s: 1.5rem;
-  --whitespace-m: calc(var(--whitespace-s) * 2);
-  --whitespace-l: calc(var(--whitespace-s) * 4);
-  --whitespace-xs: calc(var(--whitespace-s) * 0.5);
-
-  --factor: 1.6;
-
-  --step-0: clamp(1rem, 0.25rem + 3.75cqi, 1.375rem);
-  --step-1: clamp(1.2rem, -0.2885rem + 7.4425cqi, 1.9443rem);
-  --step-2: clamp(1.44rem, -1.1783rem + 13.0917cqi, 2.7492rem);
-  --step-3: clamp(1.728rem, -2.5907rem + 21.5933cqi, 3.8873rem);
-  --step-4: clamp(2.0736rem, -4.7726rem + 34.2308cqi, 5.4967rem);
-  --step-5: clamp(2.4883rem, -8.0796rem + 52.8398cqi, 7.7723rem);
-}
-
-form {
-  margin-block: var(--whitespace-l);
-}
-
-fieldset {
-  padding-inline: 0;
-  padding-block: var(--whitespace-xs) var(--whitespace-s);
-}
-
-legend {
-  font-weight: bold;
-}
-
-input,
-select,
-textarea {
-  padding: 0.4em;
-  font: inherit;
-  border-radius: var(--border-width);
-  border: var(--border-width) solid;
-}
-
-input:focus,
-textarea:focus {
-  border-color: var(--accent-color);
-  outline: var(--border-width) solid var(--accent-color);
-}
-
-label:has(input:focus, textarea:focus) {
-  font-weight: bold;
-}
-
-label {
-  display: grid;
-  margin-block-end: var(--whitespace-xs);
-}
-
-label:has(input[type="checkbox"]) {
-  display: flex;
-  align-items: baseline;
-  gap: 0.2em;
-}
-
-a {
-  color: deeppink;
-}
-a:hover {
-  color: olivedrab;
-}
-
-a:active {
-  color: papayawhip;
-}
-
-a:focus {
-  /*met een tab selectie zal er focus worden geplaatst worden op dat wat geselecteerd is*/
-  outline: 0.2em dashed deeppink;
-}
-
 h1 {
-  font-size: var(--step-3);
-  text-wrap: balance;
-  line-height: 0.8;
-} /*header veranderd nu op basis van groote van pagina */
-h2 {
-  font-size: var(--step-2);
-}
-h3 {
-  font-size: var(--step-1);
-}
-/*pow, power staat voor de macht tot dus bij h1 staat 1.6 tot de macht 3*/
-
-/* h1 { font-size: calc( pow( var(--factor), 3 ) * 1rem); }
-h2 { font-size: calc( pow( var(--factor), 2 ) * 1rem); }
-h3 { font-size: calc( pow( var(--factor), 1 ) * 1rem); }
-/*pow, power staat voor de macht tot dus bij h1 staat 1.6 tot de macht 3*/
-
-h2 {
-  margin-block-start: var(--whitespace-l); /*-l om het large te maken*/
-  margin-block-end: var(--whitespace-s);
-  text-wrap: balance;
+  font-family: curve, serif;
+  font-style: normal;
+  font-weight: 600;
 }
 
-body {
-  font-family: georgia, serif;
-  margin: var(--whitespace-s);
-}
+/*************************/
+/* jouw oplossingen hier */
+/*************************/
+
 main {
-  max-width: 30em;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 0.4em;
 }
 
-img,
-svg,
-video {
-  display: block; /*fotos hebben een witte rand, hier haal je het mee weg*/
-  max-width: 100%; /*het mag niet groter zijn dan zijn parent, waar hij in staat*/
-  height: auto;
+article:first-child {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
-button {
-  font: inherit;
-  cursor: pointer;
+/* vanaf sommetje 8 meer selectoren nodig */
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+  gap: 30px;
+  grid-auto-flow: dense;
+}
+
+article:nth-of-type(3n) {
+  grid-column: span 2;
+  background-color: lightyellow;
+}
+
+/*******************************************/
+/*******************************************/
+/***                                     ***/
+/***  algemene styling voor de articles  ***/
+/***                                     ***/
+/*******************************************/
+/*******************************************/
+
+@layer basis {
+  :root {
+    --card-color: #333;
+    --card-background: #fff;
+    --card-background-accent: gold;
+  }
+
+  /* Simpele CSS Remedy */
+  /* naar een idee van Jen Simmons */
+  /* github.com/jensimmons/cssremedy */
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  article {
+    background-color: var(--card-background);
+    color: var(--card-color);
+    padding: 1em;
+  }
+
+  article:first-child {
+    background-color: var(--card-background-accent);
+  }
+
+  article h2 {
+    margin: 0 0 0.25em;
+    line-height: 1.1em;
+  }
+
+  article p {
+    margin: 0;
+  }
 }
