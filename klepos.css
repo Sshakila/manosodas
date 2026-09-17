@@ -23,7 +23,7 @@ article:first-child {
 
 article:nth-of-type(3n) {
   grid-column: span 2;
-  background-color: lightyellow;
+  background-color: rgb(3, 43, 187);
 }
 
 /*******************************************/
