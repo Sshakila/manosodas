@@ -204,6 +204,8 @@ Bronnen binnennin website vermeldenm, evt met links van foto’s en APA naar tek
 Artikellen en video's gelezen/bekeken.
 Belangrijkste punten vanuit mijn notities;
 
+Video willen bekijken -> Aanvraag -> netwerk naar waar de video stored is -> wordt in kleine pakjes terug gestuurd -> bij je telefoon weer in elkaar gezet -> genoeg van het begin in elkaar dan kan de video starten.
+
 We zitten in onze eigen echo chamber, waar onze info alleen van degene die we kiezen te horen krijgen. Je volgt extreem rechte accounts en zal alleen die bias horen. We zijn geïsoleerd van debatten, en kunnen geen scheiding meer maken tussen feit, mening en nep nieuws.
 
 AI zit nu binnenin enorme bedrijven die weer in hun eigen echo chamber zitten en proberen slim te worden door alleen naar zichzelf te kijken.
@@ -221,11 +223,18 @@ https://assets.awwwards.com/awards/external/2017/07/595badffaf6a2.mp4
 
 Check-out
 
-Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
-Afbeeldingen die te groot zijn, teksten die te lang zijn en wanneer der niet meegeschaald wordt. Dit kan je fixen door een max-width toe te voegen en evt padding.
+1. Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
+   Afbeeldingen die te groot zijn, teksten die te lang zijn en wanneer der niet meegeschaald wordt. Dit kan je fixen door een max-width toe te voegen en evt padding.
 
-Vertel welke volgende stap je neemt om je website responsive te maken.
-Ik ga nu letten op de indeling van mijn pagina, en wil het maken dat wanneer de pagina vergroot wordt er meer kopjes bij komen afmaken.
+2. Vertel welke volgende stap je neemt om je website responsive te maken.
+   Ik ga nu letten op de indeling van mijn pagina, en wil het maken dat wanneer de pagina vergroot wordt er meer kopjes bij komen afmaken.
 
-Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
-Het is toegangelijk met grote buttons die het gebruik makkelijker maken.
+###
+
+3. Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
+
+### 15 sept Deep dive
+
+<img src="img/DD_gridje.png">
+<img src="img/DD_bloempje.png">
+<img src="img/DD_visje.png">
