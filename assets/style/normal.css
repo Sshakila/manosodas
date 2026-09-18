@@ -13,24 +13,48 @@ body {
   color-scheme: light dark;
 }
 
-html {
+/* html {
   color-scheme: light dark;
   --color: #00ca80;
   --border-color: yellow;
   --color-h1: blue;
   --background: light-dark(#00b7ff, #006dac);
   --background2: light-dark(#006aff, #0031ac);
+} */
+
+/* om de radio buttons te laten werken */
+/* dan moet je wel voor de methode met light-dark() kiezen :) */
+
+/* html:has([value="light"]:checked) { */
+/* color-scheme: light; */
+/* background-image: url("../../img/light.png");
+}
+
+html:has([value="dark"]:checked) { */
+/* color-scheme: dark; */
+/* background-image: url("../../img/dark.png");
+} */
+
+html {
+  color-scheme: light dark;
+
+  /* jouw thema's - light en dark */
+  --color: #00ca80;
+  --border-color: yellow;
+  --color-h1: blue;
+  --background: url("../../img/dark.png");
+  --background2: url("../../img/light.png");
 }
 
 /* om de radio buttons te laten werken */
 /* dan moet je wel voor de methode met light-dark() kiezen :) */
 
 html:has([value="light"]:checked) {
-  /* color-scheme: light; */
-  background-image: url("../../img/light.png");
+  color-scheme: light;
+  background-color: var(--background2);
 }
 
 html:has([value="dark"]:checked) {
-  /* color-scheme: dark; */
-  background-image: url("../../img/dark.png");
+  color-scheme: dark;
+  background-color: var(--background);
 }
