@@ -29,10 +29,10 @@ html {
 
 html:has([value="light"]:checked) {
   color-scheme: light;
-  background-color: var(--background);
+  background-image: url("../../img/light.png");
 }
 
 html:has([value="dark"]:checked) {
   color-scheme: dark;
-  background-color: var(--background);
+  background-image: url("../../img/dark.png");
 }
