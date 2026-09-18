@@ -26,11 +26,11 @@ html {
 /* dan moet je wel voor de methode met light-dark() kiezen :) */
 
 html:has([value="light"]:checked) {
-  color-scheme: light;
+  /* color-scheme: light; */
   background-image: url("../../img/light.png");
 }
 
 html:has([value="dark"]:checked) {
-  color-scheme: dark;
+  /* color-scheme: dark; */
   background-image: url("../../img/dark.png");
 }
