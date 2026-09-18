@@ -26,19 +26,11 @@ article:nth-of-type(3n) {
   background-color: rgb(255, 0, 179);
 }
 
-/*******************************************/
-/*******************************************/
-/***                                     ***/
-/***  algemene styling voor de articles  ***/
-/***                                     ***/
-/*******************************************/
-/*******************************************/
-
 @layer basis {
   :root {
     --card-color: #333;
-    --card-background: #fff200;
-    --card-background-accent: rgb(0, 64, 255);
+    --card-background: #f8f061;
+    --card-background-accent: rgb(71, 108, 219);
   }
 
   /* Simpele CSS Remedy */
@@ -53,7 +45,8 @@ article:nth-of-type(3n) {
   article {
     background-color: var(--card-background);
     color: var(--card-color);
-    padding: 1em;
+    padding: 0.5em;
+    border-radius: 30px;
   }
 
   article:first-child {
