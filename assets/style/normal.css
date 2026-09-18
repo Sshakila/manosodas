@@ -58,3 +58,21 @@ html:has([value="dark"]:checked) {
   color-scheme: dark;
   background-color: var(--background);
 }
+
+.navbar .links {
+  position: relative;
+  display: flex; /*items naast elkaar*/
+  align-items: center;
+}
+
+.navbar .links a {
+  display: block;
+  color: #26bde6;
+  font-size: 1.7rem;
+  margin-left: 4rem;
+}
+
+.navbar .links a:hover,
+.navbar .links a.active {
+  color: #282d53;
+}
