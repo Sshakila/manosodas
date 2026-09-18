@@ -1,3 +1,14 @@
+html {
+  color-scheme: light dark;
+
+  /* jouw thema's - light en dark */
+  --color: #00ca80;
+  --border-color: yellow;
+  --color-h1: blue;
+  --background: url("../../img/dark.png");
+  --background2: url("../../img/light.png");
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -13,7 +24,7 @@ article:first-child {
 
 article:nth-of-type(3n) {
   grid-column: span 2;
-  background-color: rgb(119, 150, 242);
+  background-color: rgb(174, 194, 255);
 }
 
 @layer basis {
