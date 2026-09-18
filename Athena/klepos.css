@@ -13,7 +13,7 @@ article:first-child {
 
 article:nth-of-type(3n) {
   grid-column: span 2;
-  background-color: rgb(255, 0, 179);
+  background-color: rgb(119, 150, 242);
 }
 
 @layer basis {
@@ -36,7 +36,7 @@ article:nth-of-type(3n) {
     background-color: var(--card-background);
     color: var(--card-color);
     padding: 0.5em;
-    border-radius: 30px;
+    border-radius: 20px;
   }
 
   article:first-child {
@@ -70,28 +70,4 @@ p {
   font-family: curve, serif;
   font-style: normal;
   font-weight: 400;
-}
-
-html {
-  color-scheme: light dark;
-
-  /* jouw thema's - light en dark */
-  --color: #00ca80;
-  --border-color: yellow;
-  --color-h1: blue;
-  --background: light-dark(#00b7ff, #006dac);
-  --background2: light-dark(#006aff, #0031ac);
-}
-
-/* om de radio buttons te laten werken */
-/* dan moet je wel voor de methode met light-dark() kiezen :) */
-
-html:has([value="light"]:checked) {
-  color-scheme: light;
-  background-color: var(--background);
-}
-
-html:has([value="dark"]:checked) {
-  color-scheme: dark;
-  background-color: var(--background);
 }
