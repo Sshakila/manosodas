@@ -239,6 +239,13 @@ Check-out
 <img src="images/DD_bloempje.png">
 <img src="images/DD_visje.png">
 
+### 18 sept Retrospect
+
+<img src="images/retrospect_birds.jpg">
+<img src="images/retrospect_notes.jpg">
+<img src="images/retrospect_upndown.jpg">
+<img src="images/retrospect_rank.png">
+
 ### 21 sept
 
 Live coding opdracht:
