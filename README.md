@@ -34,7 +34,7 @@ Lijken de letters niet te veel op elkaar, kijk naar de licentie.
 Dafont, Google fonts, Adobe fonts en typography.com ff: E in Heineken lijkt op een smiley
 
 Opdracht:
-<img src="img/Dolly_Parton.png">
+<img src="images/Dolly_Parton.png">
 
 Deep dive MMD interacties
 
@@ -50,9 +50,9 @@ Waarom: Een meer intuïtieve interactie tussen mens en machine
 4.  Loops: Blijft de micro-interactie een signal geven tot de gebruiker de volgende stap zet?
 
 Opdracht:
-<img src="img/WTW1.png">
-<img src="img/WTW2.png">
-<img src="img/WTW3.png">
+<img src="images/WTW1.png">
+<img src="images/WTW2.png">
+<img src="images/WTW3.png">
 
 Feedback bij WTW2 verwerkt, nog een knop toegevoegd om door te kunnen klikken.
 Vraag: verschil tussen splash screen en home pagina -> Bij splash screen denk aan de loading pagina's bij mobiele apps.
@@ -75,12 +75,12 @@ Main.article p = blue
 Main.article p zal dan gebruikt worden omdat dit specifieker is.
 Html = inline en heeft meer specificity dan externe css -> aka meer belangrijk.
 notes over javascript
-<img src="img/Java_nts.jpg">
+<img src="images/Java_nts.jpg">
 
 Praktische CSS
 opdracht:
-<img src="img/Eigen_lelijke.png">
-<img src="img/Tijdens_les.png">
+<img src="images/Eigen_lelijke.png">
+<img src="images/Tijdens_les.png">
 
 ### 7 sept - Kickoff
 
@@ -111,7 +111,7 @@ opdracht:
    Ik zou misschien een kleine 2d game willen maken, of in ieder geval goed gebruik maken van de digitale elementen. Denk aan plaatjes die rond bewegen, verschillende animaties gebaseerd op het onderwerp. Dus sowieso wil ik het niet op een krant laten lijken, maar een digitale wereld met versschillende elementen, kleuren en net niet geuren.
 
 Opdracht
-<img src="img/7sep.jpg">
+<img src="images/7sep.jpg">
 
 ### 8 september huiswerk voor woensdag
 
@@ -119,8 +119,8 @@ Presentatie gemaakt zie folder 'oefeningen'
 
 Deepdive Light N Dark gemaakt:
 Opdracht 1:
-<img src="img/LightNdark1.png">
-<img src="img/LightNdark2.png">
+<img src="images/LightNdark1.png">
+<img src="images/LightNdark2.png">
 
 opdracht 2:
 
@@ -148,12 +148,12 @@ Als het begin is gemaakt kan ik mijn Garden verder uitbreiden door in te gaan op
 
 Visual Research:
 
-<img src="img/VR_wrd.png">
-<img src="img/DR_beelden.png">
-<img src="img/poster.png">
-<img src="img/poster4.png">
-<img src="img/C8.png">
-<img src="img/C8_expln.png">
+<img src="images/VR_wrd.png">
+<img src="images/DR_beelden.png">
+<img src="images/poster.png">
+<img src="images/poster4.png">
+<img src="images/C8.png">
+<img src="images/C8_expln.png">
 
 Checkout
 
@@ -172,16 +172,16 @@ Ik zou graag idee 2 en 8 (gemarkeerd met een ster) willen samenvoegen en uitwerk
 ### 10 sept Huiswerk
 
 Schermen:
-<img src="img/schrm1.jpg">
-<img src="img/schrm2.jpg">
-<img src="img/schrm3.jpg">
-<img src="img/schrm4.jpg">
+<img src="images/schrm1.jpg">
+<img src="images/schrm2.jpg">
+<img src="images/schrm3.jpg">
+<img src="images/schrm4.jpg">
 
 Deepdive:
-<img src="img/Gameclr.png">
-<img src="img/Gameclr2.png">
-<img src="img/Gradient1.png">
-<img src="img/Flags.png">
+<img src="images/Gameclr.png">
+<img src="images/Gameclr2.png">
+<img src="images/Gradient1.png">
+<img src="images/Flags.png">
 
 ### 11 sept Feedback
 
@@ -235,9 +235,9 @@ Check-out
 
 ### 15 sept Deep dive
 
-<img src="img/DD_gridje.png">
-<img src="img/DD_bloempje.png">
-<img src="img/DD_visje.png">
+<img src="images/DD_gridje.png">
+<img src="images/DD_bloempje.png">
+<img src="images/DD_visje.png">
 
 ### 21 sept
 
