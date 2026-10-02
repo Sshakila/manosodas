@@ -1,9 +1,9 @@
 html {
   color-scheme: light dark;
 
-  --background-full: light-dark(white, rgb(226, 166, 166));
-  --background-ul: light-dark(#eebaba, #8d4f4f);
-  --text: light-dark(pink, rgb(142, 8, 8));
+  --background-full: light-dark(rgb(251, 178, 178), rgb(167, 71, 71));
+  --background-ul: light-dark(#ee8a8a, #8d4f4f);
+  --text: light-dark(rgb(189, 45, 69), rgb(242, 160, 160));
   --text-ul: light-dark(rgb(154, 17, 154), rgb(245, 179, 245));
   --hover: light-dark(rgb(232, 44, 76), rgb(235, 98, 98));
   --active: light-dark(#a84949, #5f1f1f);
