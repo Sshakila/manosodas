@@ -1,0 +1,202 @@
+/**************************
+* MARK: Fonts
+**************************/
+
+@font-face {
+  font-family: "Comic Relief";
+  src: url(../fonts/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+/**************************
+* MARK: Custom properties
+**************************/
+
+html {
+  color-scheme: light dark;
+
+  --color-cyan: light-dark(darkcyan, cyan);
+  --color-magenta: light-dark(darkmagenta, magenta);
+  --color-yellow: light-dark(goldenrod, yellow);
+  --color-dark: #3333;
+  --color-light: #fefefe;
+
+  --color-background: light-dark(var(--color-light), var(--color-dark));
+  --color-text: light-dark(var(--color-dark)), var(--color-light);
+  --accent-color: deeppink;
+  --border-width: 0.1em;
+
+  --whitespace: 2em;
+  --whitespace-small: 1em;
+  --whitespace-xs: 0.5em;
+
+  --step-0: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
+  --step-1: clamp(1.2rem, 0.975rem + 1vw, 1.875rem);
+  --step-2: clamp(1.44rem, 0.9825rem + 2.0333vw, 2.8125rem);
+  --step-3: clamp(1.728rem, 0.8978rem + 3.69vw, 4.2188rem);
+  --step-4: clamp(2.0736rem, 0.6554rem + 6.303vw, 6.3281rem);
+  --step-5: clamp(2.4883rem, 0.1537rem + 10.3761vw, 9.4922rem);
+}
+
+/**************************
+* MARK: Algemene Styling
+**************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button,
+summary {
+  cursor: pointer;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1 {
+  font-size: var(--step-3);
+}
+
+h2 {
+  font-size: var(--step-2);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+h4 {
+  font-size: var(--step-0);
+}
+
+a:hover {
+  color: deeppink;
+}
+
+a:active {
+  color: green;
+}
+
+a:focus {
+  color: deeppink;
+  outline: 0.2em dashed blue;
+}
+
+label:has([type="checkbox"]) {
+  display: flex;
+  align-items: baseline;
+}
+
+body {
+  font-family:
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
+  font-weight: normal;
+
+  display: grid;
+  grid-template-areas:
+ /*  punt staat voor niks ernaast */
+    "footer footer footer footer"
+    ". header header ."
+    ". main . .";
+  /* ". header header ."
+    ". footer . ."
+    ". main . ."; */
+  /* "header"
+    "footer"
+    "main"; */
+
+  @media (width > 30em) {
+    /* pagina wordt in 5 gedeeld, met de 1fr als padding zijkant */
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "main main ."
+      ". footer footer";
+  }
+}
+
+article {
+  max-width: 30em;
+}
+
+/**************************
+* MARK: Header
+**************************/
+
+header {
+  background-color: var(--color-cyan);
+  grid-area: header;
+  padding: var(--whitespace);
+}
+
+/**************************
+* MARK: Footer
+**************************/
+
+footer {
+  background-color: var(--color-yellow);
+  grid-area: footer;
+  padding: var(--whitespace);
+
+  nav {
+    h2 {
+      /* display: none; */
+      position: absolute;
+      left: -9999999em;
+      /* 
+      verstopt nu de h2 van de footer, verwijderen mag niet volgens de wet dus nu ligt het in purmerend*/
+    }
+    ul {
+      &::before {
+        content: "⌂" / "De Digital Garden Webring";
+      }
+      /* de digital webring is de alt tekst */
+      &::after {
+        content: "<--" / "";
+      }
+
+      padding: 0;
+      display: flex;
+      gap: var(--whitespace-xs);
+
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
+
+/**************************
+* MARK: Main
+**************************/
+
+main {
+  background-color: var(--color-magenta);
+  grid-area: main;
+  padding: var(--whitespace);
+
+  display: grid;
+  gap: var(--whitespace);
+  /* artikellen komen nu naast elkaar wanneer genoeg plek is */
+  grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+}
+
+/**************************
+* MARK: Section ...
+**************************/

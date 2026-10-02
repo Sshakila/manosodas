@@ -1,0 +1,76 @@
+html {
+  color-scheme: light dark;
+
+  --background-full: light-dark(white, rgb(3, 3, 3));
+  --background-ul: light-dark(#eebaba, #9e7b7b);
+  --text: light-dark(pink, rgb(142, 8, 8));
+  --text-ul: light-dark(rgb(154, 17, 154), rgb(245, 179, 245));
+  --hover: light-dark(rgb(232, 44, 76), rgb(235, 98, 98));
+  --active: light-dark(#a84949, #5f1f1f);
+}
+
+body {
+  background-color: var(--background-full);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text);
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 5rem;
+  overflow: hidden;
+  background-color: var(--background-ul);
+
+  li {
+    a {
+      display: block;
+      color: white;
+      padding: 16px 17px;
+      text-decoration: none;
+      float: left;
+    }
+  }
+}
+
+ul li a:hover {
+  background-color: var(--hover);
+}
+
+ul li a.active {
+  /* border-radius: 17px; */
+  background-color: var(--active);
+}
+
+form {
+  color: var(--text-ul);
+  text-align: center;
+  padding: 0.5em;
+}
+
+/* main h2 {
+  background-color: white;
+  padding: 15px;
+  max-width: 18em;
+  margin: 0 auto;
+} */
+main p {
+  background-color: white;
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  color: green;
+  max-width: 25em;
+  text-align: left;
+  margin: 0 auto;
+  /* margin -> niet meer aan left side https://stackoverflow.com/questions/21245541/min-and-max-width-mess-up-text-align-center */
+}
+
+footer p {
+  text-align: center;
+}
