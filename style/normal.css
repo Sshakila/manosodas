@@ -1,12 +1,22 @@
 html {
   color-scheme: light dark;
 
-  --background-full: light-dark(white, rgb(3, 3, 3));
-  --background-ul: light-dark(#eebaba, #9e7b7b);
+  --background-full: light-dark(white, rgb(226, 166, 166));
+  --background-ul: light-dark(#eebaba, #8d4f4f);
   --text: light-dark(pink, rgb(142, 8, 8));
   --text-ul: light-dark(rgb(154, 17, 154), rgb(245, 179, 245));
   --hover: light-dark(rgb(232, 44, 76), rgb(235, 98, 98));
   --active: light-dark(#a84949, #5f1f1f);
+}
+
+html:has([value="light"]:checked) {
+  color-scheme: light;
+  background-color: var(--background);
+}
+
+html:has([value="dark"]:checked) {
+  color-scheme: dark;
+  background-color: var(--background);
 }
 
 body {
