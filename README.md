@@ -334,3 +334,160 @@ Screenreader, soms gaat het te sloom en de stem is heel monotoon
 3. Met welke beperking rekening houden vind je het meest lastig?
    Vind je dat je beperkt wordt in wat je kunt ontwerpen?
    Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+
+### Screenreader
+
+[Windows key]+[control]+[enter] Zet Narrator aan
+[caps lock]+[control]+[I] start met lezen vanaf het begin van de pagina
+[caps lock]+[↓] verder met lezen vanaf waar je gebleven was
+[control] shut up!!!
+[caps lock]+[spatie] scan-mode aan/uitzetten
+[H] / [shift]+[H] Naar de volgende heading / vorige heading
+[2] / [shift]+[2] naar de volgde <h2> / vorige <h2>
+[caps lock]+[F6] open lijst met headings
+[K] / [shift]+[K] Naar de volgende link / vorige link
+[caps lock]+[F7] open lijst met links
+
+met tab ga je ook door de website heen
+met shift tab ga je terug
+shift is terug gaan.
+
+<img src="images/NS_tab.png">
+
+Consent form research conclusie:
+Bij mijn website maak ik zelf geen gebruik van cookies, wel host ik dit op github en staat er dat Github het IP van de bezoekers behoudt. Dit is iets wat niet te vermijden is en moet ik dus een 'ik begrijp het' knop hebben ipv een accepteren knop. Het zijn net zoals de 'benodigde cookies' knoppen die je altijd verplicht bent te 'accepteren'.
+
+### Sprint 3
+
+### 5-10-2026
+
+Artikel gelezen tijdens les met kern
+<img src="images/Sprint3_artikel.png">
+
+Opdracht muziek typografie
+Ik heb hier wel geluisterd naar bijna alle nummers en hierbij ook gelijk schetsen gemaakt. Ik zal er meer maken met het gekozen nummer Let It Happen van Tame Impala.
+Ik had naar alle nummers geluisterd om zo goed te kunnen kiezen welke ik wou.
+
+<img src="images/Intergalactic_schets.jpg">
+<img src="images/Sorrow_Cannonball_schets.jpg">
+<img src="images/Let_it_Happen_TI_schets.jpg">
+<img src="images/Let_it_Happen_TI_schets2.jpg">
+<img src="images/Let_it_Happen_TI_schets2_Choice.jpg">
+
+1. Wat wil je bij de kijker bereiken met je vormgeving?
+   Ik wil het gevoel van het nummer overdragen met gebruik van typografie. Een combinatie van lichte beeldvorming met nadruk op de klemtonen kan hierbij helpen.
+
+2. Hoe voegt jouw opzet iets toe aan de tekst?
+   Het is een visuele presentatie van de emoties.
+
+3. Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?
+   THEY BE LOVING SOME1 & 1'M AnOther Story
+   <img src="images/Let_it_Happen_TI_schets2_Choice.jpg">
+
+4. Hoe zou je dit kunnen aanpakken in code? (vraag hulp wanneer je het niet zeker weet)
+   Gebruik maken van verschillende H's (h1, h2) en verschillende Fonts, kleuren en size en plaatsing en whitespace
+
+## Check-out
+
+1. Leg uit wat er met de volgende termen bedoeld wordt:(Hint, alle termen staan in de artikelen die we samen gelezen hebben)
+   Kerning: adjusting the space between two specific characters in a font. (Tracking does this over a range of characters)
+   a.k.a:
+   Tracking: affects the overall spacing of words, lines, and paragraphs.
+   Leading: verticale afstand tussen regels
+   Flush-left: Startpunt van elke regel begint op hetzelfde punt aan de linkerkant
+   Flush-right: Startpunt van elke regel begint op hetzelfde punt aan de rechterkant
+   Centered: Tekst staat in het midden
+   Justified: settings create clean lines and strong left and right alignment edges.  
+   Indent: Paragraaf indicator, witruimte tussen twee stukken, met een traditionele ruimte van 1em.
+   Outdent: Expressive indicators, Eerste lijn van een paragraaf gaat buiten de body tekst, i.p.v. erin.
+   Modular scale:
+   Movable type:
+   Focus punt:
+   Vijf soorten contrast:
+   Spatial tension:
+
+2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+   regel zit tussen de 45 en 75, met een ideale van 60 tot 65. Ik denk dat ik alles van 50 tot 65 ideaal vindt,
+   zo is dit niet te kort dan mn ogen moe worden, en niet te lang dat ik de zin steeds kwijtraak.
+
+3. Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+   Plaatsing, zo kan ik spelen met waar de ogen naartoe gaan. Zo kan ik ook bijvoorbeeld nadruk leggen op woorden/woordgroepen die niet
+   bij elkaar horen om zo dit van de rest af te scheiden.
+
+   ### 6-10-2026 Huiswerk/Deep Dive
+
+   Deep dive;
+
+   <img src="images/DD_Pretty_Layout.png">
+
+   Article;
+
+   <img src="images/article_0610.png">
+   <img src="images/article_0610img.png">
+   <img src="images/article_0610calc.png">
+
+   HTML Let It Happen Tame Impala
+
+   <img src="images/Tame_html1.png">
+   <img src="images/Tame_html2.png">
+   <img src="images/Tame_htmltry.png">
+
+### 7-10-2026
+
+<img src="images/TheyBe.png">
+<img src="images/TheyBeCoding.png">
+
+Opdracht;
+
+Check-out;
+
+1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
+   Ontwerper -> Geeft meer controle over de plaatsing van het ontwerp.
+   Bezoeker ->
+2. Noem drie manieren om chaos in je ontwerp te voorkomen.
+   Hierarchie, contrast en coherentie.
+3. Hoeveel gekkigheid moet er in je werk zitten?
+   Ligt eraan wat je doet, ik zou denken in het geval van een digitale tuintje, dat dit volkomen aan je eigen mening ligt. Wanneer dit werk is voor een bedrijf dan moet je nadenken over het bericht wat je wilt uitbrengen tot de klant. Gekkigheid is fijn, en kan een unieke draai geven mits dit van toepassing is.
+
+Deep-dive;
+
+<img src="images/DD_fonts1.png">
+<img src="images/DD_fonts2.png">
+<img src="images/DD_fonts3.png">
+
+### 9-10-2026
+
+Voortgangsgesprek;
+
+feedback: tekst aan de linkerkant rechtslijnend maken om zo meer focus op het midden te krijgen
+
+Check-out;
+
+1.  Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
+2.  Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
+3.  Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
+
+### Deep dive 09-10-2026
+
+<img src="images/Deepdivebutton.png">
+
+### bi weekly geekly
+
+artikel conclusie: Dead internet theory is dat het internet vol is met bots, alive internet theory is dat wij het internet in leven zullen houden door onze eigen third spaces te maken. Sinds 2024 is er een boom aan AI content, wat begon met shrimp jesus en nu is gegroeid tot youtube kanalen waar mensen geld aan verdienen en spotify ghost artiesten.
+
+notes tijdens het lezen:
+ja het is veel, dit zijn 3 artikellen met soms een heel stuk uit het artikel omdat ik die belangrijk vond om nog een keer te lezen.
+
+<img src="images/bwg_article1.png">
+<img src="images/bwg_article2.png">
+<img src="images/bwg_article3.png">
+<img src="images/bwg_article4.png">
+<img src="images/bwg_article5.png">
+<img src="images/bwg_article6.png">
+<img src="images/bwg_article7.png">
+<img src="images/bwg_article8.png">
+<img src="images/bwg_article9.png">
+<img src="images/bwg_article10.png">
+<img src="images/bwg_article11.png">
+
+## 19-10-2026
