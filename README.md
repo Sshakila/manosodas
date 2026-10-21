@@ -491,3 +491,16 @@ ja het is veel, dit zijn 3 artikellen met soms een heel stuk uit het artikel omd
 <img src="images/bwg_article11.png">
 
 ## 19-10-2026
+
+<img src="images/Webby.jpg">
+
+### Bi-weekly Geek 3
+
+<img src="images/beekly_geekly3.jpg">
+
+cookie achtergrond
+
+# Peerfeedback
+
+<img src="images/Peerfeedback.jpg">
+<img src="images/Peerfeedback2.jpg">

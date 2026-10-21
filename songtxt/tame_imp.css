@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  font-size: 30px;
+  background-color: darkgray;
+}
+
+h1 {
+  color: pink;
+}
+
+/* p {
+  color: blue;
+  writing-mode: sideways-lr;
+  padding-left: 30%;
+  font-size: 60px;
+} */
+
+main {
+  color: red;
+  /* text-align: right; */
+  position: relative;
+  right: -20%;
+}
+
+h4 {
+  color: yellow;
+  font-size: 60px;
+}
+
+h4::last-letter {
+  color: blue;
+}
+
+header {
+  color: blue;
+  writing-mode: sideways-lr;
+  /* padding-left: 30%; */
+  font-size: 60px;
+  position: relative;
+  left: 20%;
+}
+
+p {
+  color: orange;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  font-size: 70px;
+  font-weight:bold;
+}
+
+h3::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: #8a2be2;
+}
