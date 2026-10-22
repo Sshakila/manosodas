@@ -117,6 +117,7 @@ button {
   background-color: var(--button);
   border-color: black;
   border-width: 4px;
+  padding: clamp(1em 1em);
 
   &:hover {
     background-color: var(--buttonhover);
@@ -143,14 +144,48 @@ main {
   font-size: 20px;
   display: grid;
   /* section p { */
-  grid-template-columns: 1em 10em 15em 10em;
-  /* grid-auto-rows: 100px; */
-  align-items: start;
-  grid-template-areas:
-    "one . . two"
-    ". . txt1 ."
-    "three . . four";
-  justify-content: center;
+  @media (width > 60em) {
+    grid-template-columns: 5em 15em 15em 5em;
+    /* grid-auto-rows: 100px; */
+    place-items: center;
+    align-items: start;
+    grid-template-areas:
+      "one . . two"
+      ". txt1 txt1 ."
+      "three . . four";
+    justify-content: center;
+  }
+
+  @media (width < 60em) {
+    grid-template-columns: 15em 15em;
+    /* grid-auto-rows: 100px; */
+    place-items: center;
+    align-items: start;
+    column-gap: 50px;
+    grid-template-areas:
+      "one two"
+      "txt1 txt1"
+      "three four";
+    justify-content: center;
+  }
+
+  @media (width < 45em) {
+    grid-template-columns: 10em 1em;
+    /* grid-auto-rows: 100px; */
+    align-items: start;
+    place-items: center;
+    grid-gap: 50px;
+    grid-template-areas:
+      "txt1"
+      "one"
+      "two"
+      "three"
+      "four";
+    /* "one . . two"
+      ". . txt1 ."
+      "three . . four"; */
+    justify-content: center;
+  }
 }
 
 main img {
@@ -271,9 +306,3 @@ main a {
 footer p {
   text-align: center;
 }
-
-/* HOME PAGE */
-/* main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
