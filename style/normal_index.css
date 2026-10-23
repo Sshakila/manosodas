@@ -13,6 +13,11 @@ html {
   --borderradius: 10px;
   --blocks: light-dark(white, #4c62c3);
   --blockshover: light-dark(blue, #f87060);
+  --width: 325px;
+  --widthbig: 500px;
+  --widthbig2: 400px;
+  --geel: yellow;
+  --blauw: blue;
 }
 
 /* border kleuren ook in de custom proper s*/
@@ -70,10 +75,6 @@ body h3 {
   animation-name: --title_upndown;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-
-  &:nth-of-type(1) {
-    animation-delay: 0s;
-  }
 }
 
 ul {
@@ -111,6 +112,7 @@ form {
 
 section {
   justify-self: center;
+  padding: 1.5em 0.5em 0.5em 0.5em;
 }
 
 button {
@@ -170,11 +172,10 @@ main {
   }
 
   @media (width < 45em) {
-    grid-template-columns: 10em 1em;
-    /* grid-auto-rows: 100px; */
+    grid-template-columns: 10em;
     align-items: start;
     place-items: center;
-    grid-gap: 50px;
+    grid-gap: 45px;
     grid-template-areas:
       "txt1"
       "one"
@@ -200,9 +201,11 @@ main h2 {
   /* text-align: center; */
   border-radius: var(--borderradius);
   height: 100px;
+  width: 210px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: clamp(0.5em 1em 1em 1em);
 }
 
 main a:nth-of-type(1) {
@@ -210,7 +213,7 @@ main a:nth-of-type(1) {
   text-align: center;
   justify-content: start;
   border-radius: var(--borderradius);
-  width: 325px;
+  width: var(--width);
   grid-area: one;
   text-decoration: none;
   &:hover {
@@ -219,13 +222,19 @@ main a:nth-of-type(1) {
   &:focus {
     background-color: var(--blockshover);
   }
+  @media (width > 60em) {
+    width: var(--widthbig);
+    img {
+      width: var(--widthbig2);
+    }
+  }
 }
 
 main a:nth-of-type(2) {
   background-color: var(--blocks);
   text-align: center;
   border-radius: var(--borderradius);
-  width: 325px;
+  width: var(--width);
   /* width: 300px; */
   grid-area: two;
   text-decoration: none;
@@ -235,13 +244,19 @@ main a:nth-of-type(2) {
   &:focus {
     background-color: var(--blockshover);
   }
+  @media (width > 60em) {
+    width: var(--widthbig);
+    img {
+      width: var(--widthbig2);
+    }
+  }
 }
 
 main a:nth-of-type(3) {
   background-color: var(--blocks);
   text-align: center;
   border-radius: var(--borderradius);
-  width: 325px;
+  width: var(--width);
   /* width: 300px; */
   grid-area: three;
   text-decoration: none;
@@ -251,13 +266,19 @@ main a:nth-of-type(3) {
   &:focus {
     background-color: var(--blockshover);
   }
+  @media (width > 60em) {
+    width: var(--widthbig);
+    img {
+      width: var(--widthbig2);
+    }
+  }
 }
 
 main a:nth-of-type(4) {
   background-color: var(--blocks);
   text-align: center;
   border-radius: var(--borderradius);
-  width: 325px;
+  width: var(--width);
   /* width: 300px; */
   grid-area: four;
   text-decoration: none;
@@ -267,6 +288,112 @@ main a:nth-of-type(4) {
   &:focus {
     background-color: var(--blockshover);
   }
+  @media (width > 60em) {
+    width: var(--widthbig);
+    img {
+      width: var(--widthbig2);
+    }
+  }
+}
+
+/* BUTTON ANIMATION BG */
+
+/* GLOBAL */
+@property --s {
+  /* leer de browser dat --s en percentage is */
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+
+/* GRIEK */
+
+[aria-label="Griekse"] {
+  background-image: radial-gradient(
+    in oklch at var(--s, 0%) var(--s, 0%),
+    var(--geel),
+    var(--blauw)
+  );
+}
+
+[aria-label="Griekse"]:hover {
+  animation-name: --Greekmove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+
+@keyframes --Greekmove {
+  0% {
+    --s: 0%;
+  }
+  100% {
+    --s: 100%;
+  }
+}
+
+/* MUZIEK */
+
+[aria-label="Muziekse"] {
+  background-image: linear-gradient(
+    in oklch,
+    var(--geel) var(--s),
+    var(--blauw) calc(100% - var(--s))
+  );
+  transition: --s 1s;
+}
+
+[aria-label="Muziekse"]:hover {
+  --s: 100%;
+}
+
+/* BOEK */
+
+[aria-label="Boekse"] {
+  background-image: conic-gradient(
+    in oklch,
+    var(--blauw) var(--s),
+    var(--geel) var(--s)
+  );
+  transition: --s 1s;
+}
+
+[aria-label="Boekse"]:hover {
+  --s: 100%;
+}
+
+/* SHOW */
+
+[aria-label="Showse"] {
+  background-image: radial-gradient(
+    in oklch,
+    var(--geel) var(--s, 0%),
+    var(--blauw) calc(100% - var(--s, 0%))
+  );
+}
+
+[aria-label="Showse"]:hover {
+  animation-name: --Showmovee;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes --Showmovee {
+  0% {
+    /* JOUW CODE HIER */
+    --s: 0%;
+  }
+  50% {
+    --s: 62%;
+  }
+}
+
+[aria-label="Aboutsct"] {
+  background-color: green;
+  color: blue;
 }
 
 /* main h2 {
@@ -304,5 +431,6 @@ main a {
 /* end */
 
 footer p {
+  color: var(--blocks);
   text-align: center;
 }
