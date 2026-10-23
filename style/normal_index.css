@@ -16,8 +16,8 @@ html {
   --width: 325px;
   --widthbig: 500px;
   --widthbig2: 400px;
-  --geel: yellow;
-  --blauw: blue;
+  --geel: light-dark(rgb(41, 111, 224), #fce762);
+  --blauw: light-dark(#fce762, rgb(41, 111, 224));
 }
 
 /* border kleuren ook in de custom proper s*/
@@ -389,11 +389,6 @@ main a:nth-of-type(4) {
   50% {
     --s: 62%;
   }
-}
-
-[aria-label="Aboutsct"] {
-  background-color: green;
-  color: blue;
 }
 
 /* main h2 {
