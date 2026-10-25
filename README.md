@@ -369,10 +369,25 @@ Ik heb hier wel geluisterd naar bijna alle nummers en hierbij ook gelijk schetse
 Ik had naar alle nummers geluisterd om zo goed te kunnen kiezen welke ik wou.
 
 <img src="images/Intergalactic_schets.jpg">
+de lyric stuitert een beetje naar beneden en dat wou ik dan laten zien met een letterlijke trap
 <img src="images/Sorrow_Cannonball_schets.jpg">
+Dit waren de eerste schetsen die ik had gemaakt, ik was hier erg gefocust op beeldvorming en niet perse typografie, wat ik gelukkig snel realiseerde en de focus weer terug draaide naar lettertypes etc. 
+Heb letterlijk de tekst uit laten spugen in een wishing well
+Heb 2 glazen met melk en honing die dan op het hart schenken, waardoor er een 'overstroming' komt en de lyric 'water'ook echt op het water drijft. 
 <img src="images/Let_it_Happen_TI_schets.jpg">
+Veel gespeeld met het idee dat het woord 'cover' daadwerkelijk boven 'shadow' staat, omdat er wordt geprobeerd om dit echt te verstoppen. 
+Ook 'all this running' dan echt om het woordje 'around' laten gaan, omdat het er dan omheen rent.
+Ook het woordje 'running' met veel spaties ertussen, zie het als de afstand die gerend wordt. 
 <img src="images/Let_it_Happen_TI_schets2.jpg">
+'bearing down on my shoulders' met het woord 'bearing' die dan ook druk geeft op de schouders. 
+'I can hear an alarm' met daar wat streepjes omheen om geluid van een alarm te visualiseren, en ook het woord 'alarm' schuin, net als hoe een weker dan beweegt door de vibraties. 
+'I CANNOT vanish you will not scare me' een kruis door 'cannot' omdat het niet kan, omdat het verboden is (als een soort mantra voor jezelf van 'nee dat ga ik niet'). SCARE staat heel groot, omdat het wel iets moeilijks is om te over komen, de 'will' staat klein omdat in de mantra de focus op: 'JIJ zal MIJ NIET BANG maken' ligt. 
+'some___things trying to get out' het woord 'out' die springt ook door de glazen box heen, dat het met veel moeite binnen werd gehouden maar toch er net uit kon springen. De '____' staat voor something, en some...things??, dat het iets is wat eruit wilt komen, maar we weten niet precies wat het nou is. Het is iets, of het zijn meerdere dingen. 
+'Try to bounce to it' letterlijk naar 'it' toe bouncen.
 <img src="images/Let_it_Happen_TI_schets2_Choice.jpg">
+'They be loving some1 and 1'm AnOther story'   Ik wil hier alles krap op elkaar houden, de flow van 'They be loving someone and im another story'  gaat best snel met zo goed als geen adem 
+   tussen de woorden in. IK wou dat op deze manier visualiseren. Ook wil ik 'loving' in een andere font om zo het liefde gedeelte ervan te visualiseren. Story staat ook in een andere/dezelfde font als die van loving, omdat er nog wel liefde in die story staat zelfs al is dit 1 van vele. Juist omdat dit 1 van velen is staat alleen de eerste letter in een andere font. De cijfer 1 komt vaak terug en zo heb ik de '-one' in someone en de 'i' in 'i'm' beide een 1 gemaakt om te visualiseren dat ik inderdaad gewoon 1 van de andere 1tjes ben. someONE and im just ONE.
+Hier twee versies van en ook mijn uiteindelijke keuze.
 
 1. Wat wil je bij de kijker bereiken met je vormgeving?
    Ik wil het gevoel van het nummer overdragen met gebruik van typografie. Een combinatie van lichte beeldvorming met nadruk op de klemtonen kan hierbij helpen.
@@ -420,6 +435,8 @@ Ik had naar alle nummers geluisterd om zo goed te kunnen kiezen welke ik wou.
 
    <img src="images/DD_Pretty_Layout.png">
 
+   Ik kan nu veel beter werken met grids, en weet nu ook dat ik bepaalde woorden kan laten kantelen (en dit specifiek in @media kan gebruiken)
+
    Article;
 
    <img src="images/article_0610.png">
@@ -432,10 +449,14 @@ Ik had naar alle nummers geluisterd om zo goed te kunnen kiezen welke ik wou.
    <img src="images/Tame_html2.png">
    <img src="images/Tame_htmltry.png">
 
+   Hier heb ik een beetje gespeeld met de mogelijkheden binnenin HTML, specifiek met de positie en grootte van specifieke woorden.
+   omdat '&' niet per se een letter is wou ik dit kantelen. Het is soort van the odd one out, dus leek het mij ideaal om dit te kantelen.
+
 ### 7-10-2026
 
 <img src="images/TheyBe.png">
 <img src="images/TheyBeCoding.png">
+Hier heb ik die krapheid van de tekst zelf weer terug gebracht, dit is een ideale visualisatie van de manier hoe het nummer gezongen wordt, maar toch kreeg ik de feedback dat dit er heel leeg uitziet.
 
 Opdracht;
 
@@ -455,6 +476,8 @@ Deep-dive;
 <img src="images/DD_fonts2.png">
 <img src="images/DD_fonts3.png">
 
+Ik heb hier met fonts gewerkt, dit lijkt mij ideaal om te gebruiken bij het woord 'loving' dat dit meer dramatisch kan worden.
+
 ### 9-10-2026
 
 Voortgangsgesprek;
@@ -466,10 +489,12 @@ Check-out;
 1.  Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
 2.  Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
 3.  Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
+    het woordje 'IM' wordt een stuk langer gezongen dan de rest, misschien dat het woord dan kan 'stretchen' naar de zijkanten, geen idee hoe ik dit met 2 letters en een apostrof kan doen...
 
 ### Deep dive 09-10-2026
 
 <img src="images/Deepdivebutton.png">
+veel gewerkt met hele leuke animaties die ik in mijn website en in mijn lyrics kan gebruiken.
 
 ### bi weekly geekly
 
@@ -504,3 +529,11 @@ cookie achtergrond
 
 <img src="images/Peerfeedback.jpg">
 <img src="images/Peerfeedback2.jpg">
+
+### Voortgangsgesprek.
+
+geen wit op geel, nav bar kleur naar achtergrond kleur veranderen en van blokjes.
+
+kleuren toevoegen song tekst, naar midden brengen
+
+chrome lighthouse inspector
