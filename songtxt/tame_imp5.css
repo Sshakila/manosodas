@@ -51,6 +51,24 @@ body {
     ". eight eight eight"
     ". main8 . main9"
     ". ten ten ten";
+  @media (width > 60em) {
+    grid-template-columns: 17.5em 10em 15em 10em;
+    /* grid-auto-rows: 100px; */
+    /* grid-template-rows: 80px 90px 80px auto 80px 80px; */
+    align-items: start;
+    grid-template-areas:
+      ". one one one"
+      ". two main1 three"
+      ". four main2 ."
+      ". . main3 five "
+      ". . main4 ."
+      ". . main5 ."
+      ". six main6 seven"
+      ". . main7 ."
+      ". eight eight eight"
+      ". main8 . main9"
+      ". ten ten ten";
+  }
 }
 
 /* main lyric from 10 */
