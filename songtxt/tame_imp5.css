@@ -7,9 +7,6 @@ html {
   --fontsize: 50px;
   --fontlove: 40px;
 }
-body {
-  background-color: white;
-}
 
 @keyframes --laloving {
   0% {

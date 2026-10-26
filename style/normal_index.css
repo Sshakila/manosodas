@@ -5,8 +5,10 @@ html {
   --background-ul: light-dark(#ffe32a, #fce762);
   --text: light-dark(#354c6a, #ddbdd5);
   --text-ul: light-dark(#000000, #fff08e);
-  --hover: light-dark(#86b0e5, #2d6a6f);
+  --text-li-a: light-dark(#2965b3, #2e4057);
+  --hover: light-dark(#5578a2, #2d6a6f);
   --active: light-dark(#3d5574, #92b9bd);
+  --active2: light-dark(#75aef5, #92b9bd);
   --cookie: light-dark(rgb(143, 241, 234), rgb(3, 150, 140));
   --button: light-dark(#c9b010, #fce762);
   --buttonhover: light-dark(rgb(3, 59, 150), #96830b);
@@ -18,6 +20,10 @@ html {
   --widthbig2: 400px;
   --geel: light-dark(rgb(41, 111, 224), #fce762);
   --blauw: light-dark(#fce762, rgb(41, 111, 224));
+  --wit: white;
+  --zwart: black;
+  --yap: light-dark(rgb(82, 0, 86), rgb(220, 97, 205));
+  --yap1: light-dark(black, black);
 }
 
 /* border kleuren ook in de custom proper s*/
@@ -74,7 +80,7 @@ body h3 {
   transform-origin: center bottom;
   animation-name: --title_upndown;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 7;
 }
 
 ul {
@@ -87,7 +93,7 @@ ul {
   li {
     a {
       display: block;
-      color: white;
+      color: var(--text-li-a);
       padding: 16px 17px;
       text-decoration: none;
       float: left;
@@ -97,11 +103,11 @@ ul {
 
 ul li a:hover {
   background-color: var(--hover);
+  color: var(--wit);
 }
 
 ul li a.active {
-  /* border-radius: 17px; */
-  background-color: var(--active);
+  background-color: var(--active2);
 }
 
 form {
@@ -117,6 +123,7 @@ section {
 
 button {
   background-color: var(--button);
+  color: var(--zwart);
   border-color: black;
   border-width: 4px;
   padding: clamp(1em 1em);
@@ -197,6 +204,7 @@ main img {
 
 main h2 {
   background-color: var(--background-ul);
+  color: var(--yap);
   grid-area: txt1;
   /* text-align: center; */
   border-radius: var(--borderradius);
@@ -210,6 +218,7 @@ main h2 {
 
 main a:nth-of-type(1) {
   background-color: var(--blocks);
+  color: var(--yap1);
   text-align: center;
   justify-content: start;
   border-radius: var(--borderradius);
@@ -218,9 +227,13 @@ main a:nth-of-type(1) {
   text-decoration: none;
   &:hover {
     background-color: var(--blockshover);
+    scale: 1.1;
   }
   &:focus {
     background-color: var(--blockshover);
+    scale: 1.1;
+    border-style: dashed;
+    border-color: var(--zwart);
   }
   @media (width > 60em) {
     width: var(--widthbig);
@@ -232,6 +245,7 @@ main a:nth-of-type(1) {
 
 main a:nth-of-type(2) {
   background-color: var(--blocks);
+  color: var(--yap1);
   text-align: center;
   border-radius: var(--borderradius);
   width: var(--width);
@@ -240,9 +254,13 @@ main a:nth-of-type(2) {
   text-decoration: none;
   &:hover {
     background-color: var(--blockshover);
+    scale: 1.1;
   }
   &:focus {
     background-color: var(--blockshover);
+    scale: 1.1;
+    border-style: dashed;
+    border-color: var(--zwart);
   }
   @media (width > 60em) {
     width: var(--widthbig);
@@ -254,6 +272,7 @@ main a:nth-of-type(2) {
 
 main a:nth-of-type(3) {
   background-color: var(--blocks);
+  color: var(--yap1);
   text-align: center;
   border-radius: var(--borderradius);
   width: var(--width);
@@ -262,9 +281,13 @@ main a:nth-of-type(3) {
   text-decoration: none;
   &:hover {
     background-color: var(--blockshover);
+    scale: 1.1;
   }
   &:focus {
     background-color: var(--blockshover);
+    scale: 1.1;
+    border-style: dashed;
+    border-color: var(--zwart);
   }
   @media (width > 60em) {
     width: var(--widthbig);
@@ -276,6 +299,7 @@ main a:nth-of-type(3) {
 
 main a:nth-of-type(4) {
   background-color: var(--blocks);
+  color: var(--yap1);
   text-align: center;
   border-radius: var(--borderradius);
   width: var(--width);
@@ -284,9 +308,13 @@ main a:nth-of-type(4) {
   text-decoration: none;
   &:hover {
     background-color: var(--blockshover);
+    scale: 1.1;
   }
   &:focus {
     background-color: var(--blockshover);
+    scale: 1.1;
+    border-style: dashed;
+    border-color: var(--zwart);
   }
   @media (width > 60em) {
     width: var(--widthbig);
@@ -324,6 +352,14 @@ main a:nth-of-type(4) {
   animation-direction: alternate;
 }
 
+[aria-label="Griekse"]:focus {
+  animation-name: --Greekmove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+}
+
 @keyframes --Greekmove {
   0% {
     --s: 0%;
@@ -348,6 +384,10 @@ main a:nth-of-type(4) {
   --s: 100%;
 }
 
+[aria-label="Muziekse"]:focus {
+  --s: 100%;
+}
+
 /* BOEK */
 
 [aria-label="Boekse"] {
@@ -356,10 +396,14 @@ main a:nth-of-type(4) {
     var(--blauw) var(--s),
     var(--geel) var(--s)
   );
-  transition: --s 1s;
+  transition: --s 1.5s;
 }
 
 [aria-label="Boekse"]:hover {
+  --s: 100%;
+}
+
+[aria-label="Boekse"]:focus {
   --s: 100%;
 }
 
@@ -381,11 +425,22 @@ main a:nth-of-type(4) {
   animation-direction: alternate;
 }
 
+[aria-label="Showse"]:focus {
+  animation-name: --Showmovee;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
 @keyframes --Showmovee {
   0% {
     /* JOUW CODE HIER */
     --s: 0%;
   }
+  /* 25% {
+    --s: 31%;
+  } */
   50% {
     --s: 62%;
   }
@@ -426,6 +481,6 @@ main a {
 /* end */
 
 footer p {
-  color: var(--blocks);
+  color: var(--zwart);
   text-align: center;
 }

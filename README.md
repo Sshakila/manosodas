@@ -241,9 +241,10 @@ Check-out
 
 ### 18 sept Retrospect
 
-<img src="images/retrospect_birds.jpg">
+<img src="images/RETRO1.jpg">
+<img src="images/RETRO1_2.jpg">
 <img src="images/retrospect_notes.jpg">
-<img src="images/retrospect_upndown.jpg">
+<img src="images/RETRO1_3.jpg">
 <img src="images/retrospect_rank.png">
 
 ### 21 sept
@@ -334,6 +335,7 @@ Screenreader, soms gaat het te sloom en de stem is heel monotoon
 3. Met welke beperking rekening houden vind je het meest lastig?
    Vind je dat je beperkt wordt in wat je kunt ontwerpen?
    Of heb je al manieren gevonden om vanuit een solide basis - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+   Ik denk dat het rekening ermee houden wel makkelijk kan zijn, het zijn voor mij kleine dingen zoals contrast verbeteren, wat de kwaliteit voor andere ophoogt.
 
 ### Screenreader
 
@@ -356,6 +358,13 @@ shift is terug gaan.
 
 Consent form research conclusie:
 Bij mijn website maak ik zelf geen gebruik van cookies, wel host ik dit op github en staat er dat Github het IP van de bezoekers behoudt. Dit is iets wat niet te vermijden is en moet ik dus een 'ik begrijp het' knop hebben ipv een accepteren knop. Het zijn net zoals de 'benodigde cookies' knoppen die je altijd verplicht bent te 'accepteren'.
+
+### Retro 2
+
+<img src="images/RETRO2.jpg">
+
+<img src="images/RETRO2_3.jpg">
+titel: The girl in the bubble
 
 ### Sprint 3
 
@@ -393,7 +402,7 @@ Hier twee versies van en ook mijn uiteindelijke keuze.
    Ik wil het gevoel van het nummer overdragen met gebruik van typografie. Een combinatie van lichte beeldvorming met nadruk op de klemtonen kan hierbij helpen.
 
 2. Hoe voegt jouw opzet iets toe aan de tekst?
-   Het is een visuele presentatie van de emoties.
+   Het is een visuele representatie van de emoties.
 
 3. Wat is een volgende stap: welke schets vind je het meest geschikt om digitaal uit te werken?
    THEY BE LOVING SOME1 & 1'M AnOther Story
@@ -415,11 +424,11 @@ Hier twee versies van en ook mijn uiteindelijke keuze.
    Justified: settings create clean lines and strong left and right alignment edges.  
    Indent: Paragraaf indicator, witruimte tussen twee stukken, met een traditionele ruimte van 1em.
    Outdent: Expressive indicators, Eerste lijn van een paragraaf gaat buiten de body tekst, i.p.v. erin.
-   Modular scale:
-   Movable type:
-   Focus punt:
-   Vijf soorten contrast:
-   Spatial tension:
+   Modular scale: font sizes gebaseerd op een fixed ratio
+   Movable type: I<3NY shirt, iets wat beweegbaar kan zijn? Het staat niet heel duidelijk in het artikel.
+   Focus punt: Punt waar alle concentratie naar toe gaat.
+   Vijf soorten contrast: Size, color, space, weight en shape.
+   Spatial tension: six methods; avoid the center, create a sense of direction, create unequal shapes/margins, contrast the sizes of white shapes, consider the z-axis and consider the edges. Let op de ruimte tussen de elementen om zo een statisch beeld te vermijden.
 
 2. Wat is jouw ideale regellengte (measure)? Leg uit waarom.
    regel zit tussen de 45 en 75, met een ideale van 60 tot 65. Ik denk dat ik alles van 50 tot 65 ideaal vindt,
@@ -529,6 +538,12 @@ cookie achtergrond
 
 <img src="images/Peerfeedback.jpg">
 <img src="images/Peerfeedback2.jpg">
+
+### Retro 3
+
+<img src="images/RETRO3.jpg">
+<img src="images/RETRO3_2.jpg">
+<img src="images/RETRO3_3.jpg">
 
 ### Voortgangsgesprek.
 
