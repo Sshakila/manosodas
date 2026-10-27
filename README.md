@@ -284,8 +284,8 @@ Deepdive & huiswerk:
 
 <img src="images/DD_summary.png">
 <img src="images/button.png">
-<img src="images/notes_articles.png">
-<img src="images/notes_articles2.png">
+<img src="images/notes_article.png">
+<img src="images/notes_article2.png">
 
 note: wanneer de hover staat na de active state staat, zal de active state niet meer werken (override)
 
@@ -473,7 +473,7 @@ Check-out;
 
 1. Waarom is het goed om een grid in je ontwerp toe te passen? Noem een reden voor de ontwerper en een voor de bezoeker.
    Ontwerper -> Geeft meer controle over de plaatsing van het ontwerp.
-   Bezoeker ->
+   Bezoeker -> Responsive layout wat leesbaarheid verbeterd.
 2. Noem drie manieren om chaos in je ontwerp te voorkomen.
    Hierarchie, contrast en coherentie.
 3. Hoeveel gekkigheid moet er in je werk zitten?
@@ -497,6 +497,7 @@ Check-out;
 
 1.  Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
 2.  Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
+    Het scheidt het ene woord van het andere.
 3.  Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
     het woordje 'IM' wordt een stuk langer gezongen dan de rest, misschien dat het woord dan kan 'stretchen' naar de zijkanten, geen idee hoe ik dit met 2 letters en een apostrof kan doen...
 

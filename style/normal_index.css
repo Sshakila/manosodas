@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Mephisto";
+  src: url(/fonts/Mephisto.otf);
+}
+
 html {
   color-scheme: light dark;
 
@@ -47,6 +52,8 @@ h2,
 h3 {
   color: var(--text);
   text-align: center;
+  font-family: "Mephisto";
+  font: "Mephisto";
 }
 
 @keyframes --title_upndown {
