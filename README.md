@@ -496,6 +496,7 @@ feedback: tekst aan de linkerkant rechtslijnend maken om zo meer focus op het mi
 Check-out;
 
 1.  Welke variabelen van Seraphs gebruik je in de opmaak van je songtekst?
+    Normale en de 44, die er wat meer 'fancy' uitziet.
 2.  Wat voegt iedere variabele toe aan je ontwerp (denk aan leesbaarheid, hiërarchie of de uitstraling die je wil bereiken)?
     Het scheidt het ene woord van het andere.
 3.  Hoe zou je animatie kunnen toepassen om het ritme of de accenten in de weergave van je songtekst nog beter visueel te maken?
@@ -553,3 +554,50 @@ geen wit op geel, nav bar kleur naar achtergrond kleur veranderen en van blokjes
 kleuren toevoegen song tekst, naar midden brengen
 
 chrome lighthouse inspector
+
+### Reflectie
+
+Ik heb enorm veel geleerd dit blok. Ja dat is een klassieker om tijdens een reflectie te schrijven maar het is ook zo. Ik heb opgemerkt hoe comfortabeler ik ben met het schrijven van code, zoals animaties, en ben een grote fan van het gebruiken van grids. Ik heb tijdens dit blok ook meer aantekeningen genomen dan normaal, en dit dan ook zo vaak mogelijk gedaan (dankjewel mama voor mijn notitieboek!). Vorig schooljaar nam ik aantekeningen in mijn word document, wat ik dit keer alleen heb gebruikt voor notities over de artikelen die we moesten lezen. Dit keer heb ik ze opgeschreven, waardoor ik het beter kon teruglezen. Ik denk dat ik een goed begin had, een heel stroef midden, en een goede afsluiting had. Het duurde even tot ik de draad weer had opgepakt door de omstandigheden die ik had, maar nu ben ik nog trotser op wat ik had kunnen doen. In een ideale wereld had ik nog mijn originele idee van een ‘DS’ menu scherm waar je kon kiezen uit verschillende goden, maar heb besloten om mij te richten op de andere pagina’s en songtekst zodat dat een sterke basis had. Waarschijnlijk zal ik hier wel aan werken, omdat het echt net alles afmaakt. Ik ben ook erg blij met de songtekst, ik heb veel animaties kunnen gebruiken en ben altijd een grote fan geweest van dit soort opdrachten waar ik visueel een beetje los kan gaan.
+
+tldr; Ik heb enorm mijn best gedaan, en heb erg veel kunnen genieten van de inhoud van dit blok. Ik heb mijn eerdere affiniteit met code, die ik een paar jaar kwijt was, toch weer terug kunnen krijgen! Ik heb veel geleerd over code, inclusiviteit, de wet en typografie.
+
+### Expo dag
+
+ <img src="images/expofdb.jpg">
+ <img src="images/expowebby.jpg">
+ <img src="images/expolearnlog.jpg">
+ <img src="images/expoPoema.png">
+
+### laatste dagen
+
+cookies menu aangepast dat er nu ook een 'liever niet' optie is
+
+alle fonts aangepast
+
+met html validator gewerkt, kon alleen de error bij Athena.html niet oplossen, waar de achtergrond foto een fout geeft omdat het in een body tag staat.
+
+Kleuren en contrast verbeterd in index
+
+Songtekst en about page responsive gemaakt
+
+Nieuwe versie van songtekst met meer kleur en verschillende animaties
+
+Learning log bijgevuld/plaatjes aangepast dat ze niet meer gekantelt zijn.
+
+Ik kreeg de feedback om een 'back to top' knop toe te voegen, dat heb ik bij de athena pagina toegevoegd aangezien dit de enige pagina is waar je echt moet scrollen op klein én groot scherm.
+-> Ik heb dit niet bij de songtekst gedaan, omdat ik wel de ervaring dat je door de tekst heen gaat behouden!
+
+Ook kreeg ik de feedback dat de transparante achtergrond net te transparant is, ik heb dit een klein beetje aangepast maar heb de transparantie behouden omdat ik juist de achtergrond naar de voorgrond wil brengen, terwijl het nog als achtergrond blijft.
+
+### Bronnen
+
+De plaatjes op de home pagina zijn door mij gemaakt via Figma.
+
+De achtergrond foto onder 'Griekse Mythologie' heb ik dit jaar gemaakt in de New York public library.
+
+De foto van Athena onder 'Griekse Mythologie' is van:
+https://thumbs.dreamstime.com/b/statue-athena-front-austrian-parliament-vienna-austria-statue-athena-front-austrian-parliament-329025175.jpg
+
+Het stuk over Athena onder 'Griekse Mythologie' heb ik volledig zelf geschreven, dit is informatie wat ik over de jaren heen heb onthouden vanuit boeken, verhalen, school etc etc, dus is hier niet een specifieke bron voor.
+
+Alle font files staan onder 'fonts' en alle fonts behalve de Seraphs zijn van https://fontesk.com

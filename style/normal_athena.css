@@ -3,6 +3,26 @@
   src: url(/fonts/Mephisto.otf);
 }
 
+@font-face {
+  font-family: "Mirano";
+  src: url(/fonts/MiranoExtendedFreebie-Light.ttf);
+}
+
+@font-face {
+  font-family: "CourbeSans";
+  src: url(/fonts/CourbeSans.otf);
+}
+
+@font-face {
+  font-family: "Luna";
+  src: url(/fonts/HS_LunaObscura.otf);
+}
+
+@font-face {
+  font-family: "Matcha";
+  src: url(/fonts/MatchaCih.otf);
+}
+
 html {
   color-scheme: light dark;
 
@@ -16,7 +36,7 @@ html {
   --active2: light-dark(#75aef5, #92b9bd);
   --cookie: light-dark(rgb(143, 241, 234), rgb(3, 150, 140));
   --button: light-dark(#c9b010, #fce762);
-  --buttonhover: light-dark(rgb(3, 59, 150), #96830b);
+  --buttonup: light-dark(#f0da4cae, #fce7627d);
   --borderradius: 10px;
   --blocks: light-dark(white, #4c62c3);
   --blockshover: light-dark(blue, #f87060);
@@ -28,9 +48,11 @@ html {
   --wit: white;
   --zwart: black;
   --doorzichtig0: light-dark(
-    rgba(139, 203, 255, 0.55),
+    rgba(113, 185, 244, 0.616),
     rgba(36, 117, 145, 0.55)
   );
+  --witzwart: light-dark(white, black);
+  --zwartwit: light-dark(rgba(0, 0, 0, 0.588), rgba(255, 255, 255, 0.588));
   --doorzichtig: light-dark(rgba(64, 153, 255, 0.55), rgba(0, 16, 174, 0.55));
   --doornote: light-dark(rgba(247, 247, 253, 0.55), rgba(7, 8, 8, 0.55));
   --whitespace: 10px;
@@ -57,11 +79,8 @@ h1,
 h2 {
   color: var(--text);
   text-align: center;
-  font-family: "Mephisto";
-}
-h3 {
-  color: var(--text);
-  text-align: center;
+  font-family: "Mephisto", Times, serif;
+  padding: 0.2em;
 }
 
 @keyframes --title_upndown {
@@ -106,6 +125,7 @@ ul {
   margin: 0;
   padding: 0 5rem;
   overflow: hidden;
+  font-family: "Matcha";
   background-color: var(--background-ul);
 
   li {
@@ -129,34 +149,10 @@ ul li a.active {
 }
 
 form {
-  color: var(--text-ul);
+  color: var(--wit);
   text-align: center;
   padding: 0.5em;
-}
-
-button {
-  background-color: var(--button);
-  border-color: black;
-  border-width: 4px;
-  padding: clamp(1em 1em);
-
-  &:hover {
-    background-color: var(--buttonhover);
-  }
-}
-
-dialog {
-  margin: auto;
-  text-align: center;
-  max-width: 20em;
-
-  background-color: var(--cookie);
-  color: var(--text);
-
-  &::backdrop {
-    background-color: var(--backdrop-dialog);
-    backdrop-filter: blur(2px);
-  }
+  font-size: 20px;
 }
 
 /* MAIN TEXT */
@@ -164,6 +160,7 @@ dialog {
 main {
   font-size: 20px;
   display: grid;
+
   @media (width < 60em) {
     grid-template-columns: 20em;
     /* align-items: start; */
@@ -205,7 +202,18 @@ main h4 {
   grid-area: text2;
   background-color: var(--doorzichtig0);
   padding: var(--whitespace);
+  font-family: Georgia, Times, serif;
   /* border-radius: var(--borderradius); */
+}
+
+main h3 {
+  font-family: "CourbeSans", Times, serif;
+  font-weight: 100;
+}
+
+main p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19px;
 }
 
 main h3:nth-of-type(1) {
@@ -291,8 +299,24 @@ main p:nth-of-type(5) {
 }
 
 footer p {
-  color: var(--text);
+  color: var(--text-ul);
   background-color: var(--doornote);
   text-align: center;
+  font-size: 11px;
+  font-family: "Luna", Times, serif;
   border-radius: var(--borderradius);
+}
+
+footer a {
+  background-color: var(--buttonup);
+  color: var(--zwart);
+  font-family: "CourbeSans";
+  font-size: 18px;
+  padding: 0.2em;
+  border-radius: var(--borderradius);
+  text-decoration: none;
+  &:hover {
+    background-color: var(--doorzichtig0);
+    color: var(--wit);
+  }
 }

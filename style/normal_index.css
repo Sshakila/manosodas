@@ -3,6 +3,36 @@
   src: url(/fonts/Mephisto.otf);
 }
 
+@font-face {
+  font-family: "SuperHocker";
+  src: url(/fonts/SuperHockey.ttf);
+}
+
+@font-face {
+  font-family: "CourbeSans";
+  src: url(/fonts/CourbeSans.otf);
+}
+
+@font-face {
+  font-family: "SuperBlocky";
+  src: url(/fonts/SuperBlocky.ttf);
+}
+
+@font-face {
+  font-family: "Luna";
+  src: url(/fonts/HS_LunaObscura.otf);
+}
+
+@font-face {
+  font-family: "Matcha";
+  src: url(/fonts/MatchaCih.otf);
+}
+
+@font-face {
+  font-family: "Mirano";
+  src: url(/fonts/MiranoExtendedFreebie-Light.ttf);
+}
+
 html {
   color-scheme: light dark;
 
@@ -15,8 +45,8 @@ html {
   --active: light-dark(#3d5574, #92b9bd);
   --active2: light-dark(#75aef5, #92b9bd);
   --cookie: light-dark(rgb(143, 241, 234), rgb(3, 150, 140));
-  --button: light-dark(#c9b010, #fce762);
-  --buttonhover: light-dark(rgb(3, 59, 150), #96830b);
+  --button: light-dark(rgb(51, 124, 240), #fce762);
+  --buttonhover: light-dark(rgb(3, 59, 150), #b9a210);
   --borderradius: 10px;
   --blocks: light-dark(white, #4c62c3);
   --blockshover: light-dark(blue, #f87060);
@@ -48,12 +78,17 @@ body {
 }
 
 h1,
-h2,
 h3 {
   color: var(--text);
   text-align: center;
   font-family: "Mephisto";
-  font: "Mephisto";
+}
+
+h2 {
+  color: var(--text);
+  text-align: center;
+  font-family: "SuperHocker";
+  font-weight: 50;
 }
 
 @keyframes --title_upndown {
@@ -95,6 +130,7 @@ ul {
   margin: 0;
   padding: 0 5rem;
   overflow: hidden;
+  font-family: "Matcha";
   background-color: var(--background-ul);
 
   li {
@@ -121,6 +157,7 @@ form {
   color: var(--text-ul);
   text-align: center;
   padding: 0.5em;
+  font-size: 20px;
 }
 
 section {
@@ -131,22 +168,43 @@ section {
 button {
   background-color: var(--button);
   color: var(--zwart);
-  border-color: black;
+  font-family: "CourbeSans";
+  font-size: 20px;
+  border-color: var(--zwart);
   border-width: 4px;
-  padding: clamp(1em 1em);
-
+  height: 35px;
+  width: 130px;
   &:hover {
     background-color: var(--buttonhover);
+    color: var(--wit);
   }
 }
 
 dialog {
   margin: auto;
   text-align: center;
-  max-width: 20em;
-
+  max-width: 25em;
   background-color: var(--cookie);
-  color: var(--text);
+  color: var(--zwart);
+  font-family: "Mirano";
+  font-size: 15px;
+  button {
+    height: 30px;
+    width: 150px;
+    font-family: "CourbeSans";
+    font-size: 15px;
+    color: var(--blockshover);
+    a {
+      text-decoration: none;
+      color: var(--zwart);
+    }
+  }
+  a {
+    color: var(--geel);
+    &:hover {
+      color: var(--yap);
+    }
+  }
 
   &::backdrop {
     background-color: var(--backdrop-dialog);
@@ -158,6 +216,8 @@ dialog {
 
 main {
   font-size: 20px;
+  font-family: "CourbeSans";
+  font-weight: 200;
   display: grid;
   /* section p { */
   @media (width > 60em) {
@@ -278,7 +338,8 @@ main a:nth-of-type(2) {
 }
 
 main a:nth-of-type(3) {
-  background-color: var(--blocks);
+  /* background-color: var(--blocks); */
+  /* background-color: linear-gradient(var(--blauw), var(--geel)); */
   color: var(--yap1);
   text-align: center;
   border-radius: var(--borderradius);
@@ -287,11 +348,9 @@ main a:nth-of-type(3) {
   grid-area: three;
   text-decoration: none;
   &:hover {
-    background-color: var(--blockshover);
     scale: 1.1;
   }
   &:focus {
-    background-color: var(--blockshover);
     scale: 1.1;
     border-style: dashed;
     border-color: var(--zwart);
@@ -442,7 +501,6 @@ main a:nth-of-type(4) {
 
 @keyframes --Showmovee {
   0% {
-    /* JOUW CODE HIER */
     --s: 0%;
   }
   /* 25% {
@@ -453,41 +511,9 @@ main a:nth-of-type(4) {
   }
 }
 
-/* main h2 {
-  background-color: white;
-  padding: 15px;
-  max-width: 18em;
-  margin: 0 auto;
-  border-radius: 20px;
-}
-
-main p:nth-of-type(1) {
-  background-color: white;
-  border: 3px solid red;
-  border-radius: 10px;
-  padding: 15px;
-  color: green;
-  max-width: 25em;
-  text-align: left;
-  margin: 0 auto; */
-/* margin -> niet meer aan left side https://stackoverflow.com/questions/21245541/min-and-max-width-mess-up-text-align-center */
-/* }
-
-main a {
-  background-color: green;
-
-  p {
-    color: pink;
-  }
-
-  img {
-    width: 200px;
-  }
-} */
-
-/* end */
-
 footer p {
   color: var(--zwart);
   text-align: center;
+  font-size: 11px;
+  font-family: "Luna", Times, serif;
 }

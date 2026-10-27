@@ -6,26 +6,149 @@
 html {
   --fontsize: 50px;
   --fontlove: 40px;
+  --rood: rgb(251, 4, 4);
+  --gone1: white;
+  --gone2: rgba(255, 255, 255, 0.51);
+  --gone3: rgba(255, 255, 255, 0.114);
+  --story1: rgba(255, 217, 0, 0.414);
+  --story2: rgba(255, 217, 0, 0.681);
+  --story3: rgba(255, 217, 0, 0.997);
+  --boomblue: rgb(113, 113, 251);
 }
 
 @keyframes --laloving {
   0% {
     scale: 1;
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 11;
   }
   20% {
     scale: 0.5;
+    font-variation-settings:
+      "wght" 50,
+      "SRFS" 5;
   }
   40% {
     scale: 1.5;
+    font-variation-settings:
+      "wght" 400,
+      "SRFS" 22;
   }
   60% {
-    scale: 1;
-  }
-  80% {
     scale: 0.5;
+    font-variation-settings:
+      "wght" 100,
+      "SRFS" 11;
   }
+  /* 80% {
+    scale: 0.5;
+    font-variation-settings:
+      "wght" 50,
+      "SRFS" 5;
+  } */
   100% {
     scale: 1.5;
+    font-variation-settings:
+      "wght" 800,
+      "SRFS" 44;
+    color: var(--rood);
+  }
+}
+
+@keyframes --snake {
+  0% {
+    translate: 0 0;
+  }
+
+  25% {
+    translate: 0 4.5em;
+  }
+
+  50% {
+    translate: -8em 4.5em;
+  }
+
+  75% {
+    translate: 0 4.5em;
+  }
+}
+
+@keyframes --side {
+  0% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 2em 0;
+    color: var(--story3);
+  }
+}
+
+@keyframes --boom {
+  0% {
+    color: var(--gone3);
+  }
+  50% {
+    color: var(--boomblue);
+  }
+  100% {
+    color: var(--gone3);
+  }
+}
+
+@keyframes --gone {
+  0% {
+    color: var(--gone1);
+  }
+
+  25% {
+    color: var(--gone2);
+  }
+
+  50% {
+    color: var(--gone3);
+  }
+
+  75% {
+    color: var(--gone2);
+  }
+}
+
+@keyframes --aaaym {
+  0% {
+    translate: 0 0;
+    scale: 1;
+  }
+  50% {
+    translate: 0 -5.9em;
+    scale: 1;
+  }
+  100% {
+    translate: 0 0;
+    scale: 1.5;
+  }
+}
+
+@keyframes --story {
+  0% {
+    color: var(--story1);
+  }
+
+  25% {
+    color: var(--story2);
+  }
+
+  50% {
+    color: var(--story3);
+  }
+
+  75% {
+    color: var(--story2);
+  }
+
+  100% {
+    color: var(--story1);
   }
 }
 
@@ -35,7 +158,7 @@ body {
   font-size: 20px;
   display: grid;
   /* section p { */
-  grid-template-columns: 1em 10em 15em 10em;
+  grid-template-columns: 17em 10em 15em 10em;
   /* grid-auto-rows: 100px; */
   /* grid-template-rows: 80px 90px 80px auto 80px 80px; */
   align-items: start;
@@ -51,8 +174,8 @@ body {
     ". eight eight eight"
     ". main8 . main9"
     ". ten ten ten";
-  @media (width > 60em) {
-    grid-template-columns: 17.5em 10em 15em 10em;
+  @media (width < 60em) {
+    grid-template-columns: 1em 10em 10em;
     /* grid-auto-rows: 100px; */
     /* grid-template-rows: 80px 90px 80px auto 80px 80px; */
     align-items: start;
@@ -97,6 +220,9 @@ p:nth-of-type(3) {
   text-decoration-style: wavy;
   font-weight: 100;
   grid-area: three;
+  animation-name: --snake;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 p:nth-of-type(4) {
@@ -104,6 +230,9 @@ p:nth-of-type(4) {
   font-family: "Seraphs";
   font-weight: 100;
   grid-area: four;
+  animation-name: --side;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 p:nth-of-type(5) {
@@ -111,6 +240,9 @@ p:nth-of-type(5) {
   font-family: "Seraphs";
   font-weight: 100;
   grid-area: five;
+  animation-name: --boom;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 p:nth-of-type(6) {
@@ -134,6 +266,9 @@ p:nth-of-type(8) {
   font-family: "Seraphs";
   font-weight: 100;
   grid-area: eight;
+  animation-name: --gone;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 p:nth-of-type(9) {
@@ -171,13 +306,19 @@ p:nth-of-type(12) {
   text-decoration-line: underline;
   font-family: "Seraphs";
   font-size: var(--fontlove);
-  font-variation-settings:
-    "wght" 200,
-    "SRFS" 44;
+  transition: 1s;
+  /* &:hover {
+    transition: 1s;
+    
+  } */
   animation-name: --laloving;
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
+/* font-variation-settings:
+      "wght" 800,
+      "SRFS" 44; */
 
 p:nth-of-type(13) {
   /* color: lightsalmon; */
@@ -209,18 +350,6 @@ p:nth-of-type(15) {
   font-size: var(--fontsize);
 }
 
-@keyframes --aaaym {
-  0% {
-    translate: 0 0;
-  }
-  50% {
-    translate: 0 -5.9em;
-  }
-  100% {
-    translate: 0 0;
-  }
-}
-
 /* IM */
 p:nth-of-type(16) {
   grid-area: main7;
@@ -248,4 +377,7 @@ p:nth-of-type(18) {
   text-decoration-style: wavy; */
   font-family: "Seraphs";
   font-size: var(--fontsize);
+  animation-name: --story;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
